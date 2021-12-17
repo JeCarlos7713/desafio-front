@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+/*==== Header ====*/
+
+header {
+    width: 100%;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
+    
+    height: 50px;
+
+    padding: 0 20px 0 20px;
+
+    font-size:  1.7rem;
+    color: white;
+}
+
+
+nav .social-media i {
+    margin-left: 5px;
+}
+
+header .hero{
+    background-image: linear-gradient(rgba(5, 5, 5, 0.623) 0%, rgba(0, 0, 0, 0.8) 0%), url("../img/faizur-rehman-pHPzdEHN6Os-unsplash\ 1.png");
+    background-size: cover;
+    background-position: bottom;
+    height: 946px;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+header .hero .infos {
+    margin-left: 55px;
+
+}
+
+.hero .infos p {
+    font-size: 3rem;
+}
+
+.hero .infos h1 {
+    font-size: 7rem;
+
+    margin-right: 40%;
+}
+
+header .hero .button {
+    width: 250px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 15px;
+
+    border: 2px solid #EE5253;
+    border-radius: 5px;
+
+    background: #EE5253;
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 2rem;
+}
+
+
+header .hero .button:hover {
+    background: transparent;
+    border: 2px solid white;
+    
+}
+
+/*==== Header ====*/
+
+/*==== Main ====*/
+
+.wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .contain{
+    color: hsla(0, 0%, 20%, 1);
+    margin: 10% 10% 10% 0;
+}
+
+.wrapper .contain h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.wrapper .contain p {
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.container .wrapper img {
+    position: relative;
+    top: 100px;
+}
+
+.clip {
+    width: 100%;
+    height: 120px;
+    background-color: hsla(0, 0%, 92%, 1);
+    clip-path: polygon(0 44%, 100% 0, 100% 100%, 0% 100%);
+    
+}
+
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.content .description h2 {
+    font-size: 3rem;
+}
+
+.form .block {
+    display: block;
+}
+/*==== Main ====*/
